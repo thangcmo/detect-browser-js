@@ -1,5 +1,9 @@
 A jQuery plugin for browser detection. jQuery v1.9.1 dropped support for browser detection, and this project aims to keep the detection up-to-date.
 
+Detect IPv6 by CloudFlare
+
+Detect IPv4 by DB-IP
+
 ## Usage
 
 Alternatively, you can use the plugin without jQuery by using the global object `jQBrowser` instead of `$.browser`.
