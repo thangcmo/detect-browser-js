@@ -1,19 +1,8 @@
-[![NPM](https://nodei.co/npm/jquery.browser.png)](https://nodei.co/npm/jquery.browser/)
-
-[![Build Status](https://travis-ci.org/gabceb/jquery-browser-plugin.svg?branch=master)](https://travis-ci.org/gabceb/jquery-browser-plugin)
-
 A jQuery plugin for browser detection. jQuery v1.9.1 dropped support for browser detection, and this project aims to keep the detection up-to-date.
 
-## Installation
-
-Include script *after* the jQuery library:
-```html
-<script src="/path/to/jquery.browser.js"></script>
-```
+## Usage
 
 Alternatively, you can use the plugin without jQuery by using the global object `jQBrowser` instead of `$.browser`.
-
-## Usage
 
 Returns true if the current useragent is some version of Microsoft's Internet Explorer. Supports all IE versions including IE 11.
 
@@ -90,28 +79,3 @@ Alternatively, you can detect for generic classifications such as desktop or mob
 - Support for Microsoft Edge
 - Support for WebKit based Opera browsers
 - Added testing using PhantomJS and different browser user agents
-
-## Testing
-
-Testing for this plugin is done with [Casperjs v1.1](http://casperjs.org/) to take advantage of multiple phantomjs browsers with different user agents.
-
-For instructions on how to install [Casperjs v1.1](http://casperjs.org/) go to http://docs.casperjs.org/en/latest/installation.html
-
-**Note: Testing requires Casperjs v1.1**
-
-Install the grunt-cli dependency by running `npm install -g grunt-cli`
-Run `npm install` to install all dependencies including grunt and all tasks
-
-Once Casperjs and the grunt-cli npm package is installed you can execute all the tests by using:
-
-	npm test
-
-## Development
-
-- Source hosted at [GitHub](https://github.com/gabceb/jquery-browser-plugin)
-- Report issues, questions, feature requests on [GitHub Issues](https://github.com/gabceb/jquery-browser-plugin/issues) 
-
-## Attributions
-
-- [Examples and original implementation](http://api.jquery.com/jQuery.browser/)
-- [Original Gist used for the plugin](https://gist.github.com/adeelejaz/4714079)
